@@ -1,0 +1,2 @@
+obj\Release\net6.0\Protos/Main.cs \
+obj\Release\net6.0\Protos/MainGrpc.cs: Protos/main.proto
