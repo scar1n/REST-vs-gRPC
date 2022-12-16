@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+ 
+option csharp_namespace = "ServiceApp";
+ 
+package main;
+
+message EmptyParams{}
+
+message Response{
+    ListOfStrings stringsList = 1;
+}
+
+message ListOfStrings{
+    repeated string Strings = 1;
+}
+
+service GrpcSomethingService {
+  rpc GetSomething (EmptyParams) returns (Response);
+}

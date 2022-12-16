@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Serviceapp.cs \
+obj\Debug\net6.0\Protos/ServiceappGrpc.cs: Protos/serviceapp.proto
